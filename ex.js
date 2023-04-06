@@ -1,6 +1,6 @@
 //exercicio 1
 
-/*
+
 function ex1(n1,n2){
 
     if(n1 > n2){
@@ -46,7 +46,7 @@ console.log(ex2(-1))
         default:
             console.log("consoante")
     }
-*/
+
 
 //exercicio 4
  function ex4(nota1,nota2,nota3,nota4){
