@@ -135,29 +135,31 @@ ex8(61)
 
 function ex9(dia){
     switch(dia){
-        case "1":
+        case 1:
             console.log("Domingo")
             break;
-        case "2":
+        case 2:
             console.log("Segunda")
             break;
-        case "3":
+        case 3:
             console.log("Terça")
             break;
-        case "4":
+        case 4:
             console.log("Quarta")
             break;
-        case "5":
+        case 5:
             console.log("Quinta")
             break;
-        case "6":
+        case 6:
             console.log("Sexta")
             break;
-        default:
+        case 7:
             console.log("Sabado")
             break;
+        default:
+            console.log("nao existe mais de sete dias na semana")
     }
-}  ex9("1")
+}  ex9(8)
 
 
  
