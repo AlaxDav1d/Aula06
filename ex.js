@@ -82,14 +82,14 @@ ex5(1,83,54)
 //exercicio 6
 
 function ex6(preco1,preco2,preco3){
-    if(preco1 > preco2 && preco1> preco3){
-        console.log(preco1)
+    if(preco1 < preco2 && preco1 <  preco3){
+        console.log("o menor preço foi" + preco1)
     }
-    else if(preco2 > preco1 && preco2 > preco3){
-        console.log(preco2)
+    else if(preco2 < preco1 && preco2 < preco3){
+        console.log("o menor preço foi " + preco2)
     }
     else{
-        console.log(preco3)
+        console.log("o menor preço foi " + preco3)
     }
 }
 ex6(12.60,12.50,15.90)
